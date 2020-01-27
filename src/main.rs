@@ -72,7 +72,7 @@ impl<'a> ScanBase<'a> {
 			result.insert(Box::new(diff), memuse);
 
 		}
-		Ok(StatRes { pidcount: totalpids, mem: memuse })
+		Ok(StatRes { pidcount: totalpids, mem: totaluse })
 	}
 }
 
